@@ -1,0 +1,748 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('../fonts/FuturaPT-Bold.eot');
+  src: url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Bold.woff') format('woff'),
+       url('../fonts/FuturaPT-Bold.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg'),
+       url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Book';
+  src: url('../fonts/FuturaPT-Book.eot');
+  src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Book.woff') format('woff'),
+       url('../fonts/FuturaPT-Book.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Book.svg#FuturaPT-Book') format('svg'),
+       url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond-Bold';
+  src: url('../fonts/FuturaPTCond-Bold.eot');
+  src: url('../fonts/FuturaPTCond-Bold.woff2') format('woff2'),
+       url('../fonts/FuturaPTCond-Bold.woff') format('woff'),
+       url('../fonts/FuturaPTCond-Bold.ttf') format('truetype'),
+       url('../fonts/FuturaPTCond-Bold.svg#FuturaPTCond-Bold') format('svg'),
+       url('../fonts/FuturaPTCond-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond-Book';
+  src: url('../fonts/FuturaPTCond-Book.eot');
+  src: url('../fonts/FuturaPTCond-Book.woff2') format('woff2'),
+       url('../fonts/FuturaPTCond-Book.woff') format('woff'),
+       url('../fonts/FuturaPTCond-Book.ttf') format('truetype'),
+       url('../fonts/FuturaPTCond-Book.svg#FuturaPTCond-Book') format('svg'),
+       url('../fonts/FuturaPTCond-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond-ExtraBold';
+  src: url('../fonts/FuturaPTCond-ExtraBold.eot');
+  src: url('../fonts/FuturaPTCond-ExtraBold.woff2') format('woff2'),
+       url('../fonts/FuturaPTCond-ExtraBold.woff') format('woff'),
+       url('../fonts/FuturaPTCond-ExtraBold.ttf') format('truetype'),
+       url('../fonts/FuturaPTCond-ExtraBold.svg#FuturaPTCond-ExtraBold') format('svg'),
+       url('../fonts/FuturaPTCond-ExtraBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond-Medium';
+  src: url('../fonts/FuturaPTCond-Medium.eot');
+  src: url('../fonts/FuturaPTCond-Medium.woff2') format('woff2'),
+       url('../fonts/FuturaPTCond-Medium.woff') format('woff'),
+       url('../fonts/FuturaPTCond-Medium.ttf') format('truetype'),
+       url('../fonts/FuturaPTCond-Medium.svg#FuturaPTCond-Medium') format('svg'),
+       url('../fonts/FuturaPTCond-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Demi';
+  src: url('../fonts/FuturaPT-Demi.eot');
+  src: url('../fonts/FuturaPT-Demi.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Demi.woff') format('woff'),
+       url('../fonts/FuturaPT-Demi.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Demi.svg#FuturaPT-Demi') format('svg'),
+       url('../fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura ExtraBold';
+  src: url('../fonts/FuturaPT-ExtraBold.eot');
+  src: url('../fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
+       url('../fonts/FuturaPT-ExtraBold.woff') format('woff'),
+       url('../fonts/FuturaPT-ExtraBold.ttf') format('truetype'),
+       url('../fonts/FuturaPT-ExtraBold.svg#FuturaPT-ExtraBold') format('svg'),
+       url('../fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Heavy';
+  src: url('../fonts/FuturaPT-Heavy.eot');
+  src: url('../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Heavy.woff') format('woff'),
+       url('../fonts/FuturaPT-Heavy.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Heavy.svg#FuturaPT-Heavy') format('svg'),
+       url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Light';
+  src: url('../fonts/FuturaPT-Light.eot');
+  src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Light.woff') format('woff'),
+       url('../fonts/FuturaPT-Light.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Light.svg#FuturaPT-Light') format('svg'),
+       url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url('../fonts/FuturaPT-Medium.eot');
+  src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+       url('../fonts/FuturaPT-Medium.woff') format('woff'),
+       url('../fonts/FuturaPT-Medium.ttf') format('truetype'),
+       url('../fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg'),
+       url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+	position: relative;
+}
+body {
+	min-width: 300px;
+	text-align: center;
+	color: #ffffff;
+	overflow-x: hidden;
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+label.error{
+	display: none !important;
+}
+input.error,textarea.error{
+	border: 1px solid #F00 !important;
+	box-shadow: 0 0px 0px 1px #F00;
+}
+
+.fancybox-inner{
+	overflow: visible !important;
+}
+
+.b{
+	position: relative;
+}
+.b-block{
+	position: relative;
+	width: auto;
+	max-width: 1230px;
+	margin: 0px auto;
+	padding: 0 30px 0 235px;
+	box-sizing: border-box;
+}
+.b-absolute{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -500px;
+}
+input::-webkit-input-placeholder {
+	color: #434343;
+}
+input:-moz-placeholder {
+	color: #434343;
+}
+.b-icon{
+	position: relative;
+}
+.b-icon:before{
+	background-repeat: no-repeat;
+	background-image: url('../i/sprite.png');
+	background-size: 289px;
+	position: absolute;
+	content: "s";
+	font-size: 0px;
+}
+
+.header {
+	z-index: 1000;
+	background-color: #000000;
+}
+.header .b-block {
+	padding: 0 30px 0 0;
+}
+.header .left-menu {
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+	padding-left: 30px;
+	overflow-y: auto;
+	background-image: url("../i/left-menu-bg.jpg");
+	background-size: cover;
+	background-position: top right;
+	box-sizing: border-box;
+}
+.left-menu .logo {
+	display: block;
+	width: 116px;
+	height: 21px;
+	background-image: url("../i/logo.png");
+	background-repeat: no-repeat;
+	padding: 0 !important;
+	margin-bottom: 7px;
+}
+.left-menu p {
+	display: block;
+	font-size: 14px;
+	font-family: 'Futura Light';
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+.left-menu p span {
+	font-family: 'Futura Heavy';
+	color: #ecd085;
+}
+.left-menu ul {
+	display: block;
+}
+.left-menu ul li {
+	display: block;
+}
+.left-menu ul li a {
+	position: relative;
+	display: block;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	font-size: 19px;
+	text-align: left;
+	padding: 10px 17px 10px 30px;
+}
+.left-menu ul li a:hover {
+	background-color: rgb(55, 164, 152);
+}
+.header-home::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/home.png');
+}
+.header-home:hover:after {
+	background-image: url('../i/home-h.png'); 
+}
+.header-pam::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 14px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url('../i/pamyatnik.png');
+}
+.header-pam:hover:after {
+	background-image: url('../i/pamyatnik-h.png'); 
+}
+.header-nadgr::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 21px;
+	height: 13px;
+	background-repeat: no-repeat;
+	background-image: url('../i/nadgrobie.png');
+}
+.header-nadgr:hover:after {
+	background-image: url('../i/nadgrobie-h.png'); 
+}
+.header-ograd::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 21px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/ograda.png');
+}
+.header-ograd:hover:after {
+	background-image: url('../i/ograda-h.png'); 
+}
+.header-memplit::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 20px;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-image: url('../i/mem-plita.png');
+}
+.header-memplit:hover:after {
+	background-image: url('../i/mem-plita-h.png'); 
+}
+.header-comp::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 21px;
+	height: 19px;
+	background-repeat: no-repeat;
+	background-image: url('../i/mem-complex.png');
+}
+.header-comp:hover:after {
+	background-image: url('../i/mem-complex-h.png'); 
+}
+.header-trinket::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	display: block;
+	width: 16px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../i/trinket.png');
+}
+.header-trinket:hover:after {
+	background-image: url('../i/trinket-h.png'); 
+}
+.header-grav::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/gravirovka.png');
+}
+.header-grav:hover:after {
+	background-image: url('../i/gravirovka-h.png'); 
+}
+.header-blagzahr::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/blago-zahr.png');
+}
+.header-blagzahr:hover:after {
+	background-image: url('../i/blago-zahr-h.png'); 
+}
+.header-3d::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/3d-model.png');
+}
+.header-3d:hover:after {
+	background-image: url('../i/3d-model-h.png'); 
+}
+.header-eskiz::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/eskiz.png');
+}
+.header-eskiz:hover:after {
+	background-image: url('../i/eskiz-h.png'); 
+}
+.header-remzahr::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 19px;
+	height: 19px;
+	background-repeat: no-repeat;
+	background-image: url('../i/rem-zahr.png');
+}
+.header-remzahr:hover:after {
+	background-image: url('../i/rem-zahr-h.png'); 
+}
+.header-akcii::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 21px;
+	background-repeat: no-repeat;
+	background-image: url('../i/akcii.png');
+}
+.header-akcii:hover:after {
+	background-image: url('../i/akcii-h.png'); 
+}
+.header-qwestion::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/qwestion.png');
+}
+.header-qwestion:hover:after {
+	background-image: url('../i/qwestion-h.png'); 
+}
+.header-contacts::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url('../i/contacts.png');
+}
+.header-contacts:hover:after {
+	background-image: url('../i/contacts-h.png'); 
+}
+.left-menu::-webkit-scrollbar { width: 0; height: 0;}
+.left-menu::-webkit-scrollbar-button {  background-color: transparent; }
+.left-menu::-webkit-scrollbar-track {  background-color: transparent;}
+.left-menu::-webkit-scrollbar-track-piece { background-color: transparent;}
+.left-menu::-webkit-scrollbar-thumb { background-color: transparent;}
+.left-menu::-webkit-scrollbar-corner { background-color: transparent;}}
+.left-menu::-webkit-resizer { background-color: transparent;}
+.header-info span {
+	display: block;
+	vertical-align: top;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: 'Futura Light';
+	float: left;
+	margin-left: 60px;
+	padding-left: 23px;
+	position: relative;
+	margin-top: 25px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.header-info .span-1 {
+	margin-left: 255px;
+}
+.span-1::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+	display: block;
+	width: 14px;
+	height: 14px;
+	background-image: url("../i/time.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.span-1:hover:after {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.span-2::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+	display: block;
+	width: 12px;
+	height: 15px;
+	background-image: url("../i/marker.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.span-2:hover:after {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.span-3::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+	display: block;
+	width: 12px;
+	height: 16px;
+	background-image: url("../i/kladb.png");
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.span-3:hover:after {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.header-info .header-info-phone span, .header-info .phone-a {
+	display: block;
+	float: none;
+	font-size: 19px;
+	font-family: 'Futura Heavy';
+	color: rgb(58, 178, 165);
+	margin: 0;
+	padding-left: 0;
+}
+.header-info-phone {
+	text-align: right;
+	margin: 14px 0;
+}
+.header-info-zv {
+	display: inline-block;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: 'Futura Book';
+	border: 1px solid rgb(58, 178, 165);
+	padding: 5px 14px;
+	border-radius: 30px;
+	margin-top: 5px;
+	margin-left: 35px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.header-info-zv:hover {
+	background-color: rgb(58, 178, 165);
+}
+
+.footer {
+	padding-top: 25px;
+	background-color: #000000;
+}
+.footer-menu {
+	float: left;
+}
+.footer-menu-1 {
+	margin-left: 45px;
+}
+.footer-menu-2, .footer-menu-3 {
+	margin-left: 35px;
+}
+.footer-menu a {
+	display: block;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 1.2;
+	font-family: 'Futura Light';
+	text-align: left;
+}
+.footer-menu a:hover {
+	text-decoration: underline;
+}
+.footer-social {
+	text-align: right;
+}
+.atk-logo {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.atk-logo a {
+	display: block;
+	width: 123px;
+	height: 57px;
+	background-image: url("../i/logo-atk.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.atk-logo p {
+	display: block;
+	font-size: 10px;
+	color: rgb(116,116,116);
+	line-height: 1.2;
+	text-align: left;
+	margin-top: 5px;
+	font-family: 'Open Sans';
+}
+
+.social-ul-a a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.vk {
+	background-image: url("../i/vk.png");
+	margin-left: 0px !important;
+}
+.ok {
+	background-image: url("../i/ok.png");
+}
+.facebook {
+	background-image: url("../i/facebook.png");
+}
+.twitter {
+	background-image: url("../i/twitter.png");
+}
+.google {
+	background-image: url("../i/google.png");
+}
+.flamp {
+	background-image: url("../i/flamp.png");
+	margin-right: 0px !important;
+}
+.social-ul-a a:hover {
+	-webkit-animation: anim_a 1s ease infinite;
+	-moz-animation: anim_a 1s ease infinite;
+	-ms-animation: anim_a 1s ease infinite;
+	-o-animation: anim_a 1s ease infinite;
+	animation: anim_a 1s ease infinite;
+}
+@-webkit-keyframes anim_a {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(30deg);}
+	30% {transform: rotate(-30deg);}
+	40% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
+@-moz-keyframes anim_a {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(30deg);}
+	30% {transform: rotate(-30deg);}
+	40% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
+@-ms-keyframes anim_a {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(30deg);}
+	30% {transform: rotate(-30deg);}
+	40% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
+@-o-keyframes anim_a {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(30deg);}
+	30% {transform: rotate(-30deg);}
+	40% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
+@keyframes anim_a {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(30deg);}
+	30% {transform: rotate(-30deg);}
+	40% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
+.footer-bottom {
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 25px;
+	padding-bottom: 15px;
+}
+.footer-bottom a, .footer-bottom span {
+	display: inline-block;
+	font-size: 13px;
+	font-family: 'Futura Light';
+	color: rgb(159, 159, 159);
+	margin-left: 20px;
+}
+.footer-bottom a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+	.atk-logo a {
+		background-image: url("../i/logo-atk@2x.png");
+	}
+}	
+@media screen and (max-width: 1250px){
+	
+}
+@media screen and (max-width: 1020px){
+
+}

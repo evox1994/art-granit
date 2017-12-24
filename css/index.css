@@ -1,0 +1,405 @@
+.b-1 {
+	background-image: url("../i/index-b-1-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.b-1 .b-block {
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+.b-1 h1 {
+	display: block;
+	font-size: 36px;
+	font-family: 'Futura Light';
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 40px;
+	margin-left: 45px;
+}
+.b-1 span {
+	color: #ecd085;
+}
+.b-1-slider {
+	width: 897px;
+	height: 334px;
+	margin-left: 45px;
+	position: relative;
+}
+.b-1-slide img {
+	display: block;
+}
+.b-1-slider .slick-arrow {
+	font-size: 0;
+	border: 0;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	width: 18px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: calc(50% - 15px);
+	z-index: 100;
+}
+.b-1-slider .slick-prev {
+	background-image: url("../i/index-b-1-slick-arr-prev.png");
+	left: 15px;
+}
+.b-1-slider .slick-next {
+	background-image: url("../i/index-b-1-slick-arr-next.png");
+	right: 15px;
+}
+.b-1-slider .slick-prev:hover {
+	background-image: url("../i/index-b-1-slick-arr-prev-h.png");
+}
+.b-1-slider .slick-next:hover {
+	background-image: url("../i/index-b-1-slick-arr-next-h.png");
+}
+.b-1-slider .slick-dots li {
+	display: inline-block;
+}
+.b-1-slider .slick-dots li button {
+	font-size: 0;
+	background-color: transparent;
+	border: 2px solid rgb(70, 70, 70);
+	border-radius: 50%;
+	width: 11px;
+	height: 11px;
+	margin: 0 5px;
+}
+.b-1-slider .slick-dots li.slick-active button {
+	background-color: rgb(70, 70, 70);
+}
+.b-1-slider .slick-dots li button:hover {
+	cursor: pointer;
+}
+.b-1-slider .slick-dots {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+
+.b-2 {
+	background-color: #ffffff;
+}
+.b-2-block {
+	padding-left: 45px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+}
+.b-2-block::after {
+	content: '';
+	position: absolute;
+	left: 45px;
+	bottom: 0;
+	width: calc(100% - 45px);
+	height: 2px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../i/b-2-block-border.png");
+}
+.b-2-block.last::after {
+	display: none;
+}
+.b-2-block h2 {
+	display: block;
+	font-size: 36px;
+	font-family: 'Futura Light';
+	text-transform: uppercase;
+	color: #000000;
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 45px;
+}
+
+.b-2 .preim-block {
+	margin-top: 15px;
+}
+.preim img {
+	display: block;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin: 0 auto;
+}
+.preim img:hover {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.preim-1 img {
+	width: 98px;
+}
+.preim-2 img {
+	width: 98px;
+}
+.preim-3 img {
+	width: 100px;
+}
+.preim-4 img {
+	width: 98px;
+}
+.preim {
+	display: inline-block;
+	margin: 0 24px;
+	margin-top: 15px;
+	vertical-align: bottom;
+}
+.preim-1 {
+	margin-left: 0;
+}
+.preim-4 {
+	margin-right: 0;
+}
+.preim p {
+	display: block;
+	font-family: 'Futura Medium';
+	font-size: 18px;
+	line-height: 1.2;
+	color: #000000;
+	text-align: center;
+	margin: 25px 0;
+}
+.preim span {
+	color: #37a498;
+}
+.preim a {
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Futura Light';
+	padding: 10px 20px;
+	background-color: rgb(55, 164, 152);
+	border-radius: 20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.preim a:hover {
+	background-color: #327870;
+}
+.gallery-block {
+	width: 432px;
+	height: 287px;
+	background-image: url("../i/gallery-block-img.jpg");
+	text-align: center;
+	margin-right: 35px;
+}
+.gallery-block h3 {
+	display: none;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	line-height: 1.2;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 90px;
+}
+.gallery-block.last {
+	margin-right: 0 !important;
+}
+.gallery-block a {
+	display: none;
+	font-size: 20px;
+	color: rgb(60, 186, 172);
+	font-family: 'Futura Medium';
+	border: 3px solid rgb(60, 186, 172);
+	padding: 5px 30px;
+	border-radius: 21px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.gallery-block a:hover {
+	background-color: rgb(60, 186, 172);
+	color: #ffffff;
+}
+.gallery-block.hover a {
+	display: inline-block;
+}
+.gallery-block.hover h3 {
+	display: block;
+}
+.gallery-block.hover {
+	background-image: url("../i/gallery-block-img-h.jpg");
+}
+.all-works {
+	display: inline-block;
+	background-color: rgb(55, 164, 152);
+	font-family: 'Futura Light';
+	font-size: 18px;
+	color: #ffffff;
+	padding: 10px 35px;
+	margin-top: 40px;
+	border-radius: 22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.all-works:hover {
+	background-color: #327870;
+}
+.b-2-slide img {
+	display: block;
+}
+.b-2-slider {
+	width: 900px;
+	position: relative;
+}
+.b-2-slider .slick-arrow {
+	font-size: 0;
+	border: 0;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	width: 35px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: calc(50% - 27px);
+	z-index: 100;
+	background-image: url("../i/index-b-2-arr.png");
+}
+.b-2-slider .slick-prev {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	left: 15px;
+}
+.b-2-slider .slick-next {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	right: 15px;
+}
+.b-2-slider .slick-arrow:hover {
+	background-image: url("../i/index-b-2-arr-h.png");
+}
+.b-2-slider .slick-dots li {
+	display: inline-block;
+}
+.b-2-slider .slick-dots li button {
+	font-size: 0;
+	background-color: transparent;
+	border: 2px solid rgb(236, 208, 133);
+	border-radius: 50%;
+	width: 11px;
+	height: 11px;
+	margin: 0 5px;
+}
+.b-2-slider .slick-dots li.slick-active button {
+	background-color: rgb(236, 208, 133);
+}
+.b-2-slider .slick-dots li button:hover {
+	cursor: pointer;
+}
+.b-2-slider .slick-dots {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+.b-2-block.last p {
+	display: block;
+	max-width: 900px;
+	font-size: 18px;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	text-align: left;
+	margin-top: 25px;
+}
+
+.b-3 {
+	background-color: rgb(231, 240, 239);
+}
+.b-3 .b-block {
+	padding-left: 265px;
+	padding-top: 55px;
+	padding-bottom: 75px;
+}
+.b-3 h2 {
+	display: block;
+	font-family: 'Futura Light';
+	color: rgb(0,0,0);
+	line-height: 1.2;
+	font-size: 38px;
+}
+.b-3 h3 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	font-size: 24px;
+}
+.b-3 form {
+	display: block;
+	max-width: 302px;
+	width: auto;
+	margin: 50px auto 0;
+}
+.b-3 form input {
+	display: block;
+	width: 100%;
+	font-family: 'Futura Light';
+	font-size: 18px;
+	color: #000000;
+	background-color: rgb(215, 215, 215);
+	border: 1px solid rgb(215, 215, 215);
+	margin-bottom: 20px;
+	height: 46px;
+	text-align: center;
+	border-radius: 23px;
+}
+.b-3 form input:hover {
+	border-color: rgb(55, 164, 152);
+}
+.b-3 form input.focus {
+	border-color: rgb(55, 164, 152);
+}
+.b-3 form button {
+	display: block;
+	width: 100%;
+	height: 46px;
+	font-size: 21px;
+	color: #ffffff;
+	background-color: rgb(55, 164, 152);
+	border-radius: 23px;
+	border: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-3 form button:hover {
+	cursor: pointer;
+	background-color: #327870;
+}
+.b-3 form p {
+	display: block;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(108, 108, 108);
+	line-height: 1.2;
+	font-family: 'Futura Light';
+}
+
