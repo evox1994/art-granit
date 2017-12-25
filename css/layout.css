@@ -232,7 +232,7 @@ input:-moz-placeholder {
 	font-family: 'Futura Light';
 	text-align: left;
 	color: #ffffff;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 .left-menu p span {
 	font-family: 'Futura Heavy';
@@ -604,10 +604,10 @@ input:-moz-placeholder {
 	float: left;
 }
 .footer-menu-1 {
-	margin-left: 15px;
+	margin-left: 45px;
 }
 .footer-menu-2, .footer-menu-3 {
-	margin-left: 35px;
+	margin-left: 15px;
 }
 .footer-menu a {
 	display: block;
