@@ -172,7 +172,7 @@ input.error,textarea.error{
 	width: auto;
 	max-width: 1230px;
 	margin: 0px auto;
-	padding: 0 30px 0 235px;
+	padding: 0 30px 0 265px;
 	box-sizing: border-box;
 }
 .b-absolute{
@@ -204,7 +204,7 @@ input:-moz-placeholder {
 	background-color: #000000;
 }
 .header .b-block {
-	padding: 0 30px 0 0;
+	padding: 0 30px;
 }
 .header .left-menu {
 	position: fixed;
@@ -481,7 +481,7 @@ input:-moz-placeholder {
 	color: #ffffff;
 	font-family: 'Futura Light';
 	float: left;
-	margin-left: 60px;
+	margin-left: 45px;
 	padding-left: 23px;
 	position: relative;
 	margin-top: 25px;
@@ -604,7 +604,7 @@ input:-moz-placeholder {
 	float: left;
 }
 .footer-menu-1 {
-	margin-left: 45px;
+	margin-left: 15px;
 }
 .footer-menu-2, .footer-menu-3 {
 	margin-left: 35px;
@@ -739,10 +739,122 @@ input:-moz-placeholder {
 	.atk-logo a {
 		background-image: url("../i/logo-atk@2x.png");
 	}
-}	
-@media screen and (max-width: 1250px){
-	
 }
-@media screen and (max-width: 1020px){
-
+@media screen and (max-width: 1245px) {
+	.footer-manu-1 {
+		margin-left: 15px;
+	}
+	.footer-menu-2, .footer-menu-3 {
+		margin-left: 15px;
+	}
+	.footer-bottom a, .footer-bottom span {
+		margin-left: 15px;
+	}
+}	
+@media screen and (max-width: 1240px){
+	.header-info span {
+		margin-left: 15px;
+	}
+	.header-info .span-1 {
+		margin-left: 225px;
+	}
+	.header-info-zv {
+		margin-left: 10px;
+	}
+	.header .left-menu {
+		padding-left: 5px;
+	}
+}
+@media screen and (max-width: 1205px) {
+	.footer-menu {
+		margin-left: 0;
+		float: none;
+	}
+	.footer-social {
+		text-align: center;
+		float: none !important;
+		margin-top: 20px;
+	}
+	.footer-top {
+		text-align: center;
+	}
+	.footer-bottom {
+		padding-left: 0;
+	}
+	.footer-bottom a, .footer-bottom span {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 1125px){
+	.header-info .span-3 {
+		width: 130px;
+	}
+	.header-info .span-1 {
+		margin-left: 215px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.left-menu {
+		width: 195px !important;
+	}
+	.header-info span {
+		padding-left: 15px;
+	}
+	.header-info .span-1 {
+		margin-left: 195px;
+		width: 78px;
+	}
+	.header .b-block {
+		padding: 0 10px;
+	}
+	.header-info .span-2 {
+		width: 100px;
+		margin-bottom: 20px;
+	}
+	.header-info .span-3 {
+		width: 100px;
+		margin-bottom: 20px;
+	}
+	.header-info-zv {
+		padding: 5px;
+	}
+	.left-menu ul li a {
+		padding: 10px 0 10px 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.b-block {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.header .left-menu {
+		display: none;
+		position: fixed;
+		padding-left: 30px;
+		width: 235px !important;
+	}
+	.left-menu ul li a {
+		padding: 10px 17px 10px 30px;
+	}
+	.header-info {
+		display: none;
+	}
+	.footer-bottom {
+		text-align: center;
+	}
+	.footer-bottom a, .footer-bottom span {
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.footer-menu a {
+		text-align: center;
+	}
+	.atk-logo {
+		display: none;
+	}
+	.mobile-logo {
+		display: inline-block !important;
+		margin: 0 auto;
+	}
 }

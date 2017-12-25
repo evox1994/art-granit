@@ -1,0 +1,23 @@
+.b-1 {
+	background-color: #ffffff;
+}
+.b-1 .b-block {
+	padding-left: 45px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.b-1 span {
+	display: block;
+	font-size: 14px;
+	font-family: 'Futura Light';
+	color: rgb(166, 166, 166);
+	line-height: 1.2;
+}
+.b-1 h1 {
+	display: block;
+	font-size: 36px;
+	font-family: 'Futura Light';
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
