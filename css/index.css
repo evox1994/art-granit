@@ -365,6 +365,7 @@
 	height: 46px;
 	text-align: center;
 	border-radius: 23px;
+	box-sizing: border-box;
 }
 .b-3 form input:hover {
 	border-color: rgb(55, 164, 152);
@@ -427,7 +428,7 @@
 		padding-left: 0;
 	}
 	.preim {
-		margin: 15px 10px 0;
+		margin: 70px 10px 0;
 	}
 	.b-2-block::after {
 		left: 0;
@@ -437,7 +438,7 @@
 @media screen and (max-width: 1190px) {
 	.gallery-block {
 		float: none !important;
-		margin: 30px auto 0;
+		margin: 20px auto 0;
 		box-sizing: border-box;
 		padding-top: 90px;
 	}
