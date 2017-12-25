@@ -1,0 +1,143 @@
+.b-1 {
+	background-image: url("../i/index-b-1-bg.jpg");
+}
+.b-1 .b-block {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.b-1 h4 {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	color: rgb(166, 166, 166);
+	font-family: 'Futura Light';
+	line-height: 1.2;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+.b-1 h1 {
+	display: block;
+	text-align: left;
+	color: #ffffff;
+	font-family: 'Futura Light';
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin-left: 45px;
+	margin-bottom: 30px;
+}
+.b-1 span, .b-1 a {
+	display: block;
+	position: relative;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 0 0 0 45px;
+	font-family: 'Futura Light';
+	line-height: 2.1;
+	text-align: left;
+	margin-left: 45px;
+}
+.b-1 .span-1::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 9px;
+	display: block;
+	width: 22px;
+	height: 28px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../i/contact-marker.png');
+}
+.b-1 .span-2::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 9px;
+	display: block;
+	width: 25px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../i/contact-time.png');
+}
+.b-1 .span-3::after, .b-1 a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 8px;
+	display: block;
+	width: 25px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../i/contact-phone.png');
+}
+.b-1 .span-4::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 14px;
+	display: block;
+	width: 27px;
+	height: 21px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../i/contact-mail.png');
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1 .span-4:hover:after {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.b-1 p {
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: left;
+	font-family: 'Futura Light';
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.b-2 {
+	background-color: #ffffff;
+}
+.b-2 .b-block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b-2 .b-2-map {
+	width: 100%;
+	height: 440px;
+	margin-left: 45px;
+}
+
+@media screen and (max-width: 767px) {
+	.b-1 h4 {
+		margin-left: 0;
+	}
+	.b-1 h1 {
+		margin-left: 0;
+	}
+	.b-1 span {
+		margin-left: 0;
+	}
+	.b-1 p {
+		margin-left: 0;
+	}
+	.b-1 a {
+		margin-left: 0;
+	}
+	.b-2 .b-2-map {
+		margin-left: 0;
+	}
+}

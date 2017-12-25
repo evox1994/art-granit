@@ -44,6 +44,7 @@
 	color: #000000;
 	font-family: 'Futura Heavy';
 	text-align: left;
+	margin-bottom: 15px;
 }
 .b-1-block span {
 	display: inline;
@@ -60,6 +61,7 @@
 	line-height: 1.2;
 	color: #37a498;
 	font-size: 18px;
+	margin-bottom: 15px;
 }
 .b-1-block p {
 	display: block;
@@ -69,6 +71,26 @@
 	font-family: 'Futura Light';
 	font-size: 18px;
 	margin-left: 0;
+}
+.text-1 p {
+	margin-bottom: 110px;
+}
+.text-2 p {
+	margin-bottom: 90px;
+}
+.text-3 p {
+	margin-bottom: 110px;
+}
+.text-4 p {
+	margin-bottom: 15px;
+}
+.b-1-text p span {
+	display: inline-block;
+	color: #000000;
+	line-height: 1.2;
+	font-family: 'Futura Light';
+	font-size: 18px;
+	margin-top: 15px;
 }
 .b-1-block a {
 	display: inline-block;
@@ -86,6 +108,18 @@
 }
 .b-1-block a:hover {
 	background-color: #327870;
+}
+.b-1-block .b-1-img {
+	max-width: 432px;
+	width: auto;
+}
+.b-1-block .b-1-img img {
+	display: block;
+	width: 100%;
+}
+.b-1-text {
+	max-width: 440px;
+	margin-left: 15px;
 }
 
 .b-2 {
@@ -114,3 +148,38 @@
 	margin-left: 45px;
 }
 
+@media screen and (max-width: 1225px) {
+	.b-1-img {
+		margin: 10px auto;
+		float: none !important;
+	}
+	.b-1-text {
+		margin-left: 0;
+		margin: 10px auto;
+		float: none !important;
+	}
+	.b-1-text p {
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.b-1 span {
+		margin-left: 0;
+	}
+	.b-1 h1 {
+		margin-left: 0;
+	}
+	.b-1 p {
+		margin-left: 0;
+	}
+	.b-1-block {
+		margin-left: 0;
+	}
+
+	.b-2 h2 {
+		margin-left: 0;
+	}
+	.b-2 p {
+		margin-left: 0;
+	}
+}
