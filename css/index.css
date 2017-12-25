@@ -437,7 +437,7 @@
 @media screen and (max-width: 1190px) {
 	.gallery-block {
 		float: none !important;
-		margin: 20px auto 0;
+		margin: 30px auto 0;
 		box-sizing: border-box;
 		padding-top: 90px;
 	}
