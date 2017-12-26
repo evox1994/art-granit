@@ -22,7 +22,8 @@
 	color: #ecd085;
 }
 .b-1-slider {
-	width: 897px;
+	max-width: 897px;
+	width: auto;
 	margin-left: 45px;
 	position: relative;
 }

@@ -1,5 +1,7 @@
 .b-1 {
 	background-image: url("../i/index-b-1-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .b-1 .b-block {
 	padding-top: 50px;
