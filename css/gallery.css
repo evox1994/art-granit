@@ -1,0 +1,139 @@
+.b-1 .b-block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b-1 h4 {
+	display: block;
+	font-family: 'Futura Light';
+	color: rgb(166, 166, 166);
+	line-height: 1.2;
+	margin-left: 45px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.b-1 h1 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	margin-left: 45px;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.b-1-buttons {
+	margin-left: 45px;
+}
+.b-1-buttons a {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-family: 'Futura Light';
+	vertical-align: top;
+	padding: 0 0 0 30px;
+	margin: 20px 21px 0;
+	position: relative;
+	text-align: left;
+}
+.b-1-buttons .all {
+	padding: 0;
+	margin-left: 0;
+}
+.b-1-buttons .rest {
+	margin-right: 0;
+}
+.b-1-buttons a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-buttons a:hover:after {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.pam::after {
+	background-image: url('../i/pamyatnik.png');
+	width: 14px;
+	height: 16px;
+	top: 0;
+}
+.nadgr::after {
+	background-image: url('../i/nadgrobie.png');
+	width: 21px;
+	height: 13px;
+	top: 3px;
+}
+.mem-comp::after {
+	background-image: url('../i/mem-complex.png');
+	width: 21px;
+	height: 19px;
+	top: 2px;
+}
+.avt-work::after {
+	background-image: url('../i/eskiz.png');
+	width: 18px;
+	height: 18px;
+	top: 0;
+}
+.viz-3d::after {
+	background-image: url('../i/3d-model.png');
+	width: 18px;
+	height: 18px;
+	top: 0;
+}
+.rest::after {
+	background-image: url('../i/rem-zahr.png');
+	width: 19px;
+	height: 19px;
+	top: 0;
+}
+
+.b-2 {
+	background-color: rgb(231, 240, 239);
+}
+.b-2 .b-block {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.b-2 h2 {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-size: 38px;
+	line-height: 1.2;
+	font-family: 'Futura Light';
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
+.b-2 p {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-family: 'Futura Light';
+	line-height: 1.2;
+	font-size: 18px;
+	margin-left: 45px;
+}
+
+@media screen and (max-width: 1247px) {
+	.b-1-buttons a {
+		margin: 20px 10px 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-buttons {
+		margin-left: 0;
+	}
+}

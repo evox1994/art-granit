@@ -309,6 +309,20 @@ input:-moz-placeholder {
 .header-home:hover:after {
 	background-image: url('../i/home-h.png'); 
 }
+.header-gallery::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url('../i/gallery.png');
+}
+.header-gallery:hover:after {
+	background-image: url('../i/gallery-h.png');
+}
 .header-pam::after {
 	content: '';
 	position: absolute;
