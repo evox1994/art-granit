@@ -99,6 +99,98 @@
 	height: 19px;
 	top: 0;
 }
+.b-1-dop-punkts {
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.dop-punkt {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid rgb(236, 208, 133);
+	border-radius: 12px;
+	font-family: 'Futura Light';
+	font-size: 14px;
+	color: #000000;
+	padding: 5px 10px;
+}
+.dop-punkt:hover, .dop-punkt.active {
+	background-color: rgb(236, 208, 133);
+}
+.b-1-works {
+	margin-left: 45px;
+}
+.pam-work {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 435px;
+	width: 100%;
+	padding-top: 110px;
+	background-image: url("../i/work-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	height: 322px;
+	margin: 30px auto 0;
+}
+.pam-work span {
+	display: none;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	line-height: 1.2;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.pam-work a {
+	display: none;
+	font-size: 20px;
+	color: rgb(60, 186, 172);
+	font-family: 'Futura Medium';
+	border: 3px solid rgb(60, 186, 172);
+	padding: 5px 30px;
+	border-radius: 21px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.pam-work a:hover {
+	background-color: rgb(60, 186, 172);
+	color: #ffffff;
+}
+.pam-work.hover a {
+	display: inline-block;
+}
+.pam-work.hover span {
+	display: block;
+}
+.pam-work.hover {
+	background-image: url("../i/work-img-h.jpg");
+}
+.b-1-works-nav {
+	margin-left: 45px;
+	text-align: center;
+	margin-top: 20px;
+}
+.b-1-works-nav a {
+	display: inline-block;
+	margin: 20px 10px 0;
+	width: 29px;
+	height: 29px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 1px solid rgb(220, 190, 113);
+	font-family: 'Futura Light';
+	font-size: 16px;
+	color: #000000;
+	padding-top: 2px;
+	vertical-align: top;
+}
+.b-1-works-nav a:hover, .b-1-works-nav a.active {
+	background-color: rgb(220, 190, 113);
+	color: #ffffff;
+}
 
 .b-2 {
 	background-color: rgb(231, 240, 239);
@@ -133,7 +225,7 @@
 	}
 }
 @media screen and (max-width: 767px) {
-	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-buttons {
+	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-buttons, .b-1-works-nav, .b-1-works {
 		margin-left: 0;
 	}
 }
