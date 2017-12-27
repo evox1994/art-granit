@@ -290,7 +290,7 @@ input:-moz-placeholder {
 	color: #ffffff;
 	font-size: 19px;
 	text-align: left;
-	padding: 10px 17px 10px 30px;
+	padding: 5px 17px 5px 30px;
 }
 .left-menu ul li a:hover {
 	background-color: rgb(55, 164, 152);
@@ -299,7 +299,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -313,7 +313,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -327,7 +327,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 14px;
 	height: 16px;
@@ -341,7 +341,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 21px;
 	height: 13px;
@@ -355,7 +355,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 21px;
 	height: 18px;
@@ -369,7 +369,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 20px;
 	height: 15px;
@@ -383,7 +383,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 21px;
 	height: 19px;
@@ -397,7 +397,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 10px;
+	top: 4px;
 	display: block;
 	width: 16px;
 	height: 24px;
@@ -412,7 +412,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -426,7 +426,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -440,7 +440,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -454,7 +454,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -468,7 +468,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 19px;
 	height: 19px;
@@ -482,7 +482,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 21px;
@@ -496,7 +496,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -510,7 +510,7 @@ input:-moz-placeholder {
 	content: '';
 	position: absolute;
 	left: 5px;
-	top: 14px;
+	top: 8px;
 	display: block;
 	width: 18px;
 	height: 18px;

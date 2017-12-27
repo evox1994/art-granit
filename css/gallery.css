@@ -109,7 +109,7 @@
 	margin-right: 10px;
 	border: 1px solid rgb(236, 208, 133);
 	border-radius: 12px;
-	font-family: 'Futura Light';
+	font-family: 'Open Sans';
 	font-size: 14px;
 	color: #000000;
 	padding: 5px 10px;
@@ -131,7 +131,10 @@
 	background-size: cover;
 	box-sizing: border-box;
 	height: 322px;
-	margin: 30px auto 0;
+	margin: 30px 16px 0 0;
+}
+.work-2, .work-4, .work-6, .work-8, .work-10 {
+	margin-right: 0;
 }
 .pam-work span {
 	display: none;
@@ -175,7 +178,7 @@
 }
 .b-1-works-nav a {
 	display: inline-block;
-	margin: 20px 10px 0;
+	margin: 20px 4px 0;
 	width: 29px;
 	height: 29px;
 	box-sizing: border-box;
@@ -222,6 +225,9 @@
 @media screen and (max-width: 1247px) {
 	.b-1-buttons a {
 		margin: 20px 10px 0;
+	}
+	.work-2, .work-4, .work-6, .work-8, .work-10 {
+		margin: 30px 16px 0 0;
 	}
 }
 @media screen and (max-width: 767px) {
