@@ -175,6 +175,34 @@
 .pam-work.hover {
 	background-image: url("../i/work-img-h.jpg");
 }
+.work-3d {
+	border: 2px dashed rgb(215, 215, 215);
+	padding-top: 25px;
+	padding-bottom: 45px;
+	margin-top: 40px;
+}
+.do {
+	display: inline-block;
+	max-width: 369px;
+}
+.posle {
+	display: inline-block;
+	max-width: 370px;
+}
+.do, .posle {
+	margin: 0 35px;
+}
+.work-3d span {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.work-3d img {
+	display: block;
+	width: 100%;
+}
 .b-1-works-nav {
 	margin-left: 45px;
 	text-align: center;
@@ -233,6 +261,10 @@
 	}
 	.work-2, .work-4, .work-6, .work-8, .work-10 {
 		margin: 30px 16px 0 0;
+	}
+	.do, .posle {
+		display: block;
+		margin: 0 auto 20px;
 	}
 }
 @media screen and (max-width: 767px) {
