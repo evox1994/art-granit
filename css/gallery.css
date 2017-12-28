@@ -125,17 +125,32 @@
 	margin-left: 45px;
 }
 .pam-work {
+	position: relative;
 	vertical-align: top;
 	display: inline-block;
 	max-width: 435px;
 	width: 100%;
 	padding-top: 110px;
-	background-image: url("../i/work-img.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	box-sizing: border-box;
 	height: 322px;
 	margin: 30px 16px 0 0;
+}
+.pam-work img {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.work-text {
+	position: relative;
+	z-index: 10;
 }
 .work-2, .work-4, .work-6, .work-8, .work-10 {
 	margin-right: 0;
@@ -172,8 +187,12 @@
 .pam-work.hover span {
 	display: block;
 }
-.pam-work.hover {
-	background-image: url("../i/work-img-h.jpg");
+.pam-work.hover img {
+	-webkit-filter: brightness(0.3);
+	-moz-filter: brightness(0.3);
+	-ms-filter: brightness(0.3);
+	-o-filter: brightness(0.3);
+	filter: brightness(0.3);
 }
 .work-3d {
 	border: 2px dashed rgb(215, 215, 215);
