@@ -2,6 +2,7 @@ $(document).ready(function(){
 	var scroll = $('.b-1-works').offset().top;
 	$('.b-1-works .pam-work a').fancybox();
 	$('.b-1-kamni a').fancybox();
+	$('.fancy-img').fancybox();
 	$('.b-1-works-nav a').click(function(){
 		if ( !($(this).hasClass("active")) ) {
 			$('.b-1-works-nav a').removeClass("active");
@@ -26,5 +27,11 @@ $(document).ready(function(){
 				}
 			});
 		}
+	});
+	$('.pam-work-img').mouseover(function(){
+		$(this).addClass("hover");
+	});
+	$('.pam-work-img').mouseout(function(){
+		$(this).removeClass("hover");
 	});
 });

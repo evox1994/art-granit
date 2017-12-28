@@ -78,6 +78,18 @@
 	margin-right: 16px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-kamni a:hover {
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	transform: translateY(-10px);
 }
 .b-1-kamni .kamen-1 {
 	background-image: url("../i/kamen-1.jpg");
@@ -276,9 +288,16 @@
 }
 .b-1-works .pam-work img {
 	display: block;
-	max-width: 370px;
-	margin: 0 auto;
 	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .b-1-works .pam-work a {
 	display: inline-block;
@@ -297,6 +316,59 @@
 }
 .b-1-works .pam-work a:hover {
 	background-color: #32867d;
+}
+.pam-work-img {
+	max-width: 370px;
+	margin: 0 auto;
+	position: relative;
+	height: 274px;
+	box-sizing: border-box;
+	padding-top: 90px;
+}
+.pam-work-img span {
+	display: none;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	line-height: 1.2;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.pam-work .pam-work-img a {
+	display: none;
+	font-size: 20px;
+	color: rgb(60, 186, 172);
+	font-family: 'Futura Medium';
+	border: 3px solid rgb(60, 186, 172);
+	background-color: transparent;
+	padding: 5px 30px;
+	margin: 0;
+	border-radius: 21px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-works .pam-work .pam-work-img a:hover {
+	background-color: rgb(60, 186, 172);
+	color: #ffffff;
+}
+.b-1-works .pam-work .pam-work-img.hover a {
+	display: inline-block;
+}
+.pam-work-img.hover span {
+	display: block;
+}
+.pam-work-img.hover img {
+	-webkit-filter: brightness(0.3);
+	-moz-filter: brightness(0.3);
+	-ms-filter: brightness(0.3);
+	-o-filter: brightness(0.3);
+	filter: brightness(0.3);
+}
+.work-text {
+	position: relative;
+	z-index: 10;
 }
 .b-1-works-nav {
 	margin-left: 45px;

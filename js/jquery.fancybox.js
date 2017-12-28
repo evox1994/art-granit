@@ -561,7 +561,7 @@
                 if ( instance && !$( e.target ).hasClass( 'fancybox-container' ) && !$.contains( instance.$refs.container[0], e.target ) ) {
                     e.stopPropagation();
 
-                    instance.focus();
+                    //instance.focus();
 
                     // Sometimes page gets scrolled, set it back
                     $W.scrollTop( self.scrollTop ).scrollLeft( self.scrollLeft );
@@ -1931,7 +1931,7 @@
 
                 // Try to focus on the first focusable element, skip for images and iframes
                 if ( current.opts.focus && !( current.type === 'image' || current.type === 'iframe' ) ) {
-                    self.focus();
+                    //self.focus();
                 }
 
             });
@@ -1977,7 +1977,7 @@
                 $el = this.$refs.container;
             }
 
-            $el.focus();
+            //$el.focus();
 
             // Scroll position of wrapper element sometimes changes after focusing (IE)
             this.$refs.slider_wrap.scrollLeft(0);
@@ -2142,7 +2142,7 @@
 
             // Place back focus
             if ( self.$lastFocus ) {
-                self.$lastFocus.focus();
+                //self.$lastFocus.focus();
             }
 
         },
