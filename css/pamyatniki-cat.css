@@ -153,6 +153,9 @@
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.b-1-top form input.focus {
+	border-color: rgb(55, 164, 152);
+}
 .b-1-top form input:hover {
 	border-color: rgb(55, 164, 152);
 }
@@ -241,6 +244,60 @@
 	font-size: 16px;
 	margin-top: 15px;
 }
+.b-1-works {
+	margin-left: 45px;
+}
+.b-1-works h2 {
+	display: block;
+	margin-top: 50px;
+	font-family: 'Futura Light';
+	color: #000000;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.b-1-works .pam-work {
+	max-width: 430px;
+	box-sizing: border-box;
+	border: 2px dashed rgb(215, 215, 215);
+	width: 100%;
+	padding: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 26px;
+	margin-top: 30px;
+}
+.b-1-works .work-2, .b-1-works .work-4, .b-1-works .work-6, .b-1-works .work-8, .b-1-works .work-10 {
+	margin-right: 0;
+}
+.b-1-works .pam-work:hover {
+	border-color: rgb(55, 164, 152);
+}
+.b-1-works .pam-work img {
+	display: block;
+	max-width: 370px;
+	margin: 0 auto;
+	width: 100%;
+}
+.b-1-works .pam-work a {
+	display: inline-block;
+	margin: 25px auto 0;
+	padding: 8px 30px;
+	font-family: 'Futura Light';
+	font-size: 18px;
+	color: #ffffff;
+	border-radius: 20px;
+	background-color: rgb(55, 164, 152);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-works .pam-work a:hover {
+	background-color: #32867d;
+}
 .b-1-works-nav {
 	margin-left: 45px;
 	text-align: center;
@@ -292,13 +349,58 @@
 	margin-left: 45px;
 }
 
+.b-popup-kam {
+	max-width: 427px;
+	width: 90%;
+	border: 2px dashed rgb(219, 219, 219);
+	padding: 40px 30px 20px;
+}
+.b-popup-kam h2 {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Futura Heavy';
+	color: #000000;
+	margin-bottom: 15px;
+}
+.b-popup-kam img {
+	display: block;
+	width: 100%;
+	height: 204px;
+	margin-bottom: 10px;
+}
+.b-popup-kam p {
+	display: block;
+	font-size: 16px;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	text-align: center;
+}
+
+
+
 @media screen and (max-width: 1247px) {
 	.b-1-info-el {
 		margin: 35px 10px 0;
 	}
+	.b-1-works .pam-work {
+		margin-right: 0;
+		display: block;
+		margin: 30px auto 0;
+	}
 }
 @media screen and (max-width: 767px) {
-	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-works-nav, .b-1-works, .b-1-info {
+	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-works-nav, .b-1-works, .b-1-info, .b-1-top {
 		margin-left: 0;
+	}
+	.b-1-kamni a {
+		margin: 0px 5px;
+	}
+	.b-1-kamni .kamen-5 {
+		margin: 10px 5px 0;
+	}
+	.b-1-top .right h2 {
+		margin-top: 20px;
 	}
 }

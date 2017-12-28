@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.left-menu').css('left',0);
 
     $('.phone-inp').mask("+7 (999) 999-99-99");
+    $('.header-info-zv').fancybox();
 
     function resize(){
        if( typeof( window.innerWidth ) == 'number' ) {

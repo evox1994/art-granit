@@ -785,6 +785,110 @@ input:-moz-placeholder {
 	text-decoration: underline;
 }
 
+.fancybox-close-small:after {
+	display: none !important;
+}
+.fancybox-close-small {
+	width: 15px;
+	height: 16px;
+	top: 16px;
+	right: 16px;
+	background-image: url("../i/close-btn.png");
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.fancybox-close-small:hover {
+	-webkit-filter: brightness(0);
+	-moz-filter: brightness(0);
+	-ms-filter: brightness(0);
+	-o-filter: brightness(0);
+	filter: brightness(0);
+}
+.b-popup {
+	max-width: 540px;
+	box-sizing: border-box;
+	padding: 45px 10px;
+	width: 90%;
+	border: 2px dashed rgb(219, 219, 219);
+}
+.b-popup h2 {
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Futura Light';
+	margin-bottom: 10px;
+}
+.b-popup h3 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.b-popup form input {
+	display: block;
+	max-width: 302px;
+	width: 100%;
+	height: 46px;
+	text-align: center;
+	background-color: rgb(232, 232, 232);
+	margin: 0 auto 10px;
+	box-sizing: border-box;
+	border-radius: 23px;
+	border: 2px solid rgb(232, 232, 232);
+	font-size: 18px;
+	font-family: 'Futura Light';
+	color: #000000;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-popup form input.focus {
+	border-color: rgb(55, 164, 152);
+}
+.b-popup form input:hover {
+	border-color: rgb(55, 164, 152);
+}
+.b-popup form button {
+	display: block;
+	max-width: 302px;
+	border: 0;
+	width: 100%;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-family: 'Futura Light';
+	font-size: 21px;
+	background-color: rgb(55, 164, 152);
+	height: 46px;
+	border-radius: 23px;
+	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-popup form button:hover {
+	cursor: pointer;
+	background-color: #32867d;
+}
+.b-popup form p {
+	display: block;
+	font-family: 'Futura Light';
+	font-size: 14px;
+	line-height: 1.2;
+	color: rgb(108, 108, 108);
+	text-align: center;
+	margin-top: 10px;
+}
+
 
 
 
