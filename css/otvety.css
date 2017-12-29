@@ -1,0 +1,100 @@
+.b-1 .b-block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b-1 h4 {
+	display: block;
+	font-family: 'Futura Light';
+	color: rgb(166, 166, 166);
+	line-height: 1.2;
+	margin-left: 45px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.b-1 h1 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	margin-left: 45px;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.b-1-otv {
+	margin-left: 45px;
+	margin-bottom: 40px;
+}
+.b-1-otv-left {
+	max-width: 432px;
+	width: 100%;
+	margin-right: 25px;
+}
+.b-1-otv-left img {
+	display: block;
+	width: 100%;
+}
+.b-1-otv-right {
+	max-width: 433px;
+	width: 100%;
+}
+.b-1-otv-right h2 {
+	display: block;
+	text-align: left;
+	font-family: 'Futura Heavy';
+	font-size: 19px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.b-1-otv-right p {
+	display: block;
+	text-align: left;
+	font-family: 'Futura Light';
+	font-size: 19px;
+	line-height: 1.2;
+	color: #000000;
+}
+
+.b-2 {
+	background-color: rgb(231, 240, 239);
+}
+.b-2 .b-block {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.b-2 h2 {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-size: 38px;
+	line-height: 1.2;
+	font-family: 'Futura Light';
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
+.b-2 p {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-family: 'Futura Light';
+	line-height: 1.2;
+	font-size: 18px;
+	margin-left: 45px;
+}
+
+@media screen and (max-width: 1247px) {
+	
+}
+@media screen and (max-width: 767px) {
+	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-works-nav, .b-1-works, .b-1-info, .b-1-top, .b-1-otv {
+		margin-left: 0;
+	}
+	.b-1-top .right h2 {
+		margin-top: 20px;
+	}
+	.b-1-otv-left {
+		margin-right: 0;
+	}
+}
