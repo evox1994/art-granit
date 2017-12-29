@@ -91,21 +91,10 @@
 	-o-transform: translateY(-10px);
 	transform: translateY(-10px);
 }
-.b-1-kamni .kamen-1 {
-	background-image: url("../i/kamen-1.jpg");
-}
-.b-1-kamni .kamen-2 {
-	background-image: url("../i/kamen-2.jpg");
-}
-.b-1-kamni .kamen-3 {
-	background-image: url("../i/kamen-3.jpg");
-}
-.b-1-kamni .kamen-4 {
-	background-image: url("../i/kamen-4.jpg");
-}
-.b-1-kamni .kamen-5 {
-	background-image: url("../i/kamen-5.jpg");
-	margin-right: 0;
+.b-1-kamni a img {
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .b-1-top .right form {
 	display: block;
