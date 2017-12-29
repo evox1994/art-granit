@@ -1,0 +1,218 @@
+.b-1 {
+	background-image: url("../i/index-b-1-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.b-1 .b-block {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b-1 h4 {
+	display: block;
+	font-family: 'Futura Light';
+	color: rgb(166, 166, 166);
+	line-height: 1.2;
+	margin-left: 45px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.b-1 h1 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	line-height: 1.2;
+	margin-left: 45px;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.b-1 h1 span {
+	color: #ecd085;
+}
+.b-1-slider {
+	max-width: 897px;
+	width: auto;
+	margin-left: 45px;
+	position: relative;
+}
+.b-1-slide img {
+	display: block;
+	width: 100%;
+}
+.b-1-slider .slick-arrow {
+	font-size: 0;
+	border: 0;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	width: 18px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: calc(50% - 15px);
+	z-index: 100;
+}
+.b-1-slider .slick-prev {
+	background-image: url("../i/index-b-1-slick-arr-prev.png");
+	left: 15px;
+}
+.b-1-slider .slick-next {
+	background-image: url("../i/index-b-1-slick-arr-next.png");
+	right: 15px;
+}
+.b-1-slider .slick-prev:hover {
+	background-image: url("../i/index-b-1-slick-arr-prev-h.png");
+}
+.b-1-slider .slick-next:hover {
+	background-image: url("../i/index-b-1-slick-arr-next-h.png");
+}
+.b-1-slider .slick-dots li {
+	display: inline-block;
+}
+.b-1-slider .slick-dots li button {
+	font-size: 0;
+	background-color: transparent;
+	border: 2px solid rgb(70, 70, 70);
+	border-radius: 50%;
+	width: 11px;
+	height: 11px;
+	margin: 0 5px;
+}
+.b-1-slider .slick-dots li.slick-active button {
+	background-color: rgb(70, 70, 70);
+}
+.b-1-slider .slick-dots li button:hover {
+	cursor: pointer;
+}
+.b-1-slider .slick-dots {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+.b-1 p {
+	display: block;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: left;
+	font-family: 'Futura Light';
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.b-1-info-el img {
+	display: block;
+	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.b-2 .b-block {
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.b-2 h2 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-left: 45px;
+	text-align: left;
+}
+.b-2-asort {
+	margin-left: 45px;
+	margin-top: 45px;
+	text-align: left;
+}
+.b-2-asort img {
+	display: block;
+	margin-right: 30px;
+	max-width: 300px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.b-2-asort-text {
+	max-width: 560px;
+}
+.b-2-asort h3 {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	font-size: 26px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+.b-2-asort h3 span {
+	font-family: 'Futura Heavy';
+	color: rgb(55, 164, 152);
+}
+.b-2-asort p {
+	display: block;
+	font-family: 'Futura Light';
+	color: #000000;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.b-2-asort a {
+	display: inline-block;
+	background-color: rgb(55, 164, 152);
+	font-size: 18px;
+	font-family: 'Futura Light';
+	color: #ffffff;
+	padding: 7px 25px;
+	border-radius: 20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-2-asort a:hover {
+	background-color: #35877e;
+}
+
+.b-3 {
+	background-color: rgb(231, 240, 239);
+}
+.b-3 .b-block {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.b-3 h2 {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-size: 38px;
+	line-height: 1.2;
+	font-family: 'Futura Light';
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
+.b-3 p {
+	display: block;
+	text-align: left;
+	color: #000000;
+	font-family: 'Futura Light';
+	line-height: 1.2;
+	font-size: 18px;
+	margin-left: 45px;
+}
+
+
+@media screen and (max-width: 1247px) {
+
+}
+@media screen and (max-width: 767px) {
+	.b-1-slide img {
+		width: 180%;
+	}
+	.b-1 h4, .b-1 h1, .b-1 p, .b-1-info, .b-1-slider, .b-2 h2, .b-3 h2, .b-3 p, .b-2-asort {
+		margin-left: 0;
+	}
+}
