@@ -1,8 +1,15 @@
 $(document).ready(function(){
 	var scroll = $('.b-1-works').offset().top;
 	$('.b-1-works .pam-work a').fancybox();
+
+	var i = 0;
+	$('.work-text').each(function(){
+		i++;
+		$(this).children(".fancy-img").addClass("fancy-img-"+i);
+		$('.fancy-img-'+i).fancybox();
+	});
+
 	$('.b-1-kamni a').fancybox();
-	$('.fancy-img').fancybox();
 	$('.b-1-works-nav a').click(function(){
 		if ( !($(this).hasClass("active")) ) {
 			$('.b-1-works-nav a').removeClass("active");
