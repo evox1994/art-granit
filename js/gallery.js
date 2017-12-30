@@ -54,4 +54,12 @@ $(document).ready(function(){
 		}
 		return false;
 	});
+	$('.work-3d a').fancybox();
+
+	var i = 0;
+	$('.work-text').each(function(){
+		i++;
+		$(this).children("a").addClass("fancy-img-"+i);
+		$('.fancy-img-'+i).fancybox();
+	});
 });
