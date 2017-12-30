@@ -202,15 +202,18 @@ input:-moz-placeholder {
 .mobile-header {
 	display: none;
 	position: relative;
-	width: 50px;
+	width: 100%;
 	height: 35px;
 }
 .mobile-menu {
 	position: absolute;
-	width: 50px;
+	width: 43px;
 	height: 35px;
 	left: 0;
 	top: 0;
+}
+.mobile-menu:hover {
+	cursor: pointer;
 }
 .mobile-menu::before {
 	content: '';
@@ -220,6 +223,23 @@ input:-moz-placeholder {
 	width: 100%;
 	height: 5px;
 	background-color: #ffffff;
+	-webkit-transform-origin: left;
+	-moz-transform-origin: left;
+	-ms-transform-origin: left;
+	-o-transform-origin: left;
+	transform-origin: left;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.mobile-menu.active::before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .mobile-menu::after {
 	content: '';
@@ -229,6 +249,23 @@ input:-moz-placeholder {
 	width: 100%;
 	height: 5px;
 	background-color: #ffffff;
+	-webkit-transform-origin: left;
+	-moz-transform-origin: left;
+	-ms-transform-origin: left;
+	-o-transform-origin: left;
+	transform-origin: left;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.mobile-menu.active::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 .menu-btn-el {
 	position: absolute;
@@ -237,10 +274,45 @@ input:-moz-placeholder {
 	width: 100%;
 	height: 5px;
 	background-color: #ffffff;
+	opacity: 1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.mobile-menu.active .menu-btn-el {
+	opacity: 0;
+}
+.mobile-nav {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.mobile-nav.active {
+	display: block;
+}
+.mobile-nav li a {
+	display: block;
+	padding: 5px 0;
+	font-family: 'Futura Light';
+	color: #ffffff;
+}
+.mobile-nav .phone-a {
+	display: block;
+	font-size: 19px;
+	font-family: 'Futura Heavy';
+	color: rgb(58, 178, 165);
+}
+.mobile-nav li {
+	display: block;
 }
 .header {
 	z-index: 1000;
 	background-color: #000000;
+	height: auto;
 }
 .header .b-block {
 	padding: 0 30px;
@@ -250,6 +322,7 @@ input:-moz-placeholder {
 	top: 0;
 	padding-top: 20px;
 	padding-left: 30px;
+	overflow-x: visible;
 	overflow-y: auto;
 	background-image: url("../i/left-menu-bg.jpg");
 	background-size: cover;
@@ -282,6 +355,7 @@ input:-moz-placeholder {
 }
 .left-menu ul li {
 	display: block;
+	position: relative;
 }
 .left-menu ul li a {
 	position: relative;
@@ -292,8 +366,50 @@ input:-moz-placeholder {
 	text-align: left;
 	padding: 5px 17px 5px 30px;
 }
-.left-menu ul li a:hover {
+.left-menu ul li a:hover, .left-menu ul .li-cat.hover .li-cat-a {
 	background-color: rgb(55, 164, 152);
+}
+.li-cat .li-cat-a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: calc(50% - 5px);
+	width: 4px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-image: url('../i/cat.png');
+}
+.li-cat .li-cat-a:hover:before, .li-cat.hover .li-cat-a::before {
+	background-image: url('../i/cat-h.png');
+}
+.header-cat {
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	background-color: rgb(55,164,152);
+	padding: 15px 20px;
+	width: 220px;
+}
+.header-cat ul li a {
+	position: relative;
+	font-family: 'Futura Light';
+	font-size: 15px;
+	padding: 5px 0 5px 14px;
+}
+.header-cat ul li a:hover {
+	text-decoration: underline;
+}
+.header-cat ul li a::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background-color: rgb(236, 208, 133);
+	top: calc(50% - 2px);
+	left: 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
 }
 .header-home::after {
 	content: '';
@@ -334,7 +450,7 @@ input:-moz-placeholder {
 	background-repeat: no-repeat;
 	background-image: url('../i/pamyatnik.png');
 }
-.header-pam:hover:after {
+.header-pam:hover:after, .li-cat.hover .header-pam.li-cat-a::after {
 	background-image: url('../i/pamyatnik-h.png'); 
 }
 .header-nadgr::after {
@@ -348,7 +464,7 @@ input:-moz-placeholder {
 	background-repeat: no-repeat;
 	background-image: url('../i/nadgrobie.png');
 }
-.header-nadgr:hover:after {
+.header-nadgr:hover:after, .li-cat.hover .header-nadgr.li-cat-a::after {
 	background-image: url('../i/nadgrobie-h.png'); 
 }
 .header-ograd::after {
@@ -419,7 +535,7 @@ input:-moz-placeholder {
 	background-repeat: no-repeat;
 	background-image: url('../i/gravirovka.png');
 }
-.header-grav:hover:after {
+.header-grav:hover:after, .li-cat.hover .header-grav.li-cat-a::after {
 	background-image: url('../i/gravirovka-h.png'); 
 }
 .header-blagzahr::after {
@@ -527,6 +643,13 @@ input:-moz-placeholder {
 .left-menu::-webkit-scrollbar-thumb { background-color: transparent;}
 .left-menu::-webkit-scrollbar-corner { background-color: transparent;}}
 .left-menu::-webkit-resizer { background-color: transparent;}
+.header::-webkit-scrollbar { width: 0; height: 0;}
+.header::-webkit-scrollbar-button {  background-color: transparent; }
+.header::-webkit-scrollbar-track {  background-color: transparent;}
+.header::-webkit-scrollbar-track-piece { background-color: transparent;}
+.header::-webkit-scrollbar-thumb { background-color: transparent;}
+.header::-webkit-scrollbar-corner { background-color: transparent;}}
+.header::-webkit-resizer { background-color: transparent;}
 .header-info span {
 	display: block;
 	vertical-align: top;
@@ -991,7 +1114,7 @@ input:-moz-placeholder {
 		padding: 5px;
 	}
 	.left-menu ul li a {
-		padding: 10px 0 10px 30px;
+		padding: 5px 0 5px 30px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -1035,5 +1158,16 @@ input:-moz-placeholder {
 	.mobile-logo {
 		display: inline-block !important;
 		margin: 0 auto;
+	}
+	.header-info-zv {
+		padding: 5px 20px;
+	}
+	.header {
+		width: 100%;
+		position: fixed;
+		overflow-y: auto;
+	}
+	.b-1 {
+		padding-top: 75px;
 	}
 }

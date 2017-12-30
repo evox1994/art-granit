@@ -1,0 +1,32 @@
+.b-1 {
+	background-repeat: no-repeat;
+	background-image: url("../i/index-b-1-bg.jpg");
+	background-size: cover;
+}
+.b-1-table {
+	display: table;
+	width: 100%;
+}
+.b-1-cell {
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: 45px;
+}
+.b-1 h1 {
+	color: #ffffff;
+	font-family: 'Futura Light';
+	text-transform: uppercase;
+	font-size: 39px;
+	line-height: 1.2;
+}
+.b-1 h2 {
+	color: #ecd085;
+	font-family: 'Futura Light';
+	font-size: 30px;
+	line-height: 1.2;
+}
+ @media screen and (max-width: 767px) {
+ 	.b-1-cell {
+ 		margin-left: 0;
+ 	}
+ }
