@@ -309,6 +309,15 @@ input:-moz-placeholder {
 .mobile-nav li {
 	display: block;
 }
+.mobile-header {
+	text-align: right;
+}
+.mobile-header a {
+	display: inline-block;
+	font-size: 19px;
+	font-family: 'Futura Heavy';
+	color: rgb(58, 178, 165);
+}
 .header {
 	z-index: 1000;
 	background-color: #000000;

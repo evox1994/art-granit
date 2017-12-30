@@ -86,7 +86,16 @@
 }
 
 @media screen and (max-width: 1247px) {
-	
+	.b-1-otv .left {
+		float: none !important;
+	}
+	.b-1-otv-left {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.b-1-otv-right {
+		max-width: 100%;
+	}
 }
 @media screen and (max-width: 767px) {
 	.b-1 h4, .b-1 h1, .b-2 h2, .b-2 p, .b-1-works-nav, .b-1-works, .b-1-info, .b-1-top, .b-1-otv {

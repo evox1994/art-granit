@@ -397,6 +397,10 @@
 
 
 @media screen and (max-width: 1247px) {
+	.b-1-top .left, .b-1-top .right {
+		float: none !important;
+		margin: 0 auto;
+	}
 	.b-1-info-el {
 		margin: 35px 10px 0;
 	}

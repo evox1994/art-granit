@@ -206,7 +206,9 @@
 
 
 @media screen and (max-width: 1247px) {
-
+	.b-2-asort-text {
+		max-width: 100%;
+	}
 }
 @media screen and (max-width: 767px) {
 	.b-1-slide img {
