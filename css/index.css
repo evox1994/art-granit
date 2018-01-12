@@ -1,11 +1,12 @@
 .b-1 {
-	background-image: url("../i/index-b-1-bg.jpg");
+	background-image: url("../i/index-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-x: right;
 }
 .b-1 .b-block {
-	padding-top: 50px;
-	padding-bottom: 45px;
+	padding-top: 85px;
+	padding-bottom: 150px;
 }
 .b-1 h1 {
 	display: block;
@@ -21,66 +22,54 @@
 .b-1 span {
 	color: #ecd085;
 }
-.b-1-slider {
-	max-width: 897px;
-	width: auto;
+.b-1-text {
 	margin-left: 45px;
-	position: relative;
+	text-align: left;
 }
-.b-1-slide img {
-	display: block;
-}
-.b-1-slider .slick-arrow {
-	font-size: 0;
-	border: 0;
-	background-color: transparent;
-	display: block;
-	position: absolute;
-	width: 18px;
-	height: 30px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: calc(50% - 15px);
-	z-index: 100;
-}
-.b-1-slider .slick-prev {
-	background-image: url("../i/index-b-1-slick-arr-prev.png");
-	left: 15px;
-}
-.b-1-slider .slick-next {
-	background-image: url("../i/index-b-1-slick-arr-next.png");
-	right: 15px;
-}
-.b-1-slider .slick-prev:hover {
-	background-image: url("../i/index-b-1-slick-arr-prev-h.png");
-}
-.b-1-slider .slick-next:hover {
-	background-image: url("../i/index-b-1-slick-arr-next-h.png");
-}
-.b-1-slider .slick-dots li {
+.b-1-text-el {
 	display: inline-block;
+	margin-right: 110px;
+	margin-top: 20px;
 }
-.b-1-slider .slick-dots li button {
-	font-size: 0;
-	background-color: transparent;
-	border: 2px solid rgb(70, 70, 70);
-	border-radius: 50%;
-	width: 11px;
-	height: 11px;
-	margin: 0 5px;
+.b-1-text-el.last {
+	margin-right: 0;
 }
-.b-1-slider .slick-dots li.slick-active button {
-	background-color: rgb(70, 70, 70);
+.b-1-text-el h2 {
+	display: block;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-bottom: 5px;
+	font-size: 28px;
+	font-family: 'Futura Book';
 }
-.b-1-slider .slick-dots li button:hover {
-	cursor: pointer;
+.b-1-text-el p {
+	display: block;
+	font-size: 25px;
+	color: #ecd085;
+	line-height: 1.2;
+	padding: 0 10px;
+	border: 1px solid rgb(55, 164, 152);
+	border-radius: 18px;
+	margin-bottom: 10px;
 }
-.b-1-slider .slick-dots {
-	width: 100%;
-	position: absolute;
-	bottom: 20px;
-	text-align: center;
+.b-1-text-el a {
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Futura Light';
+	padding: 7px 35px;
+	background-color: rgb(55, 164, 152);
+	border-radius: 18px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
+.b-1-text-el a:hover {
+	background-color: #327870;
+}
+
 
 .b-2 {
 	background-color: #ffffff;
@@ -453,6 +442,16 @@
 @media screen and (max-width: 767px) {
 	.b-2-block h2 {
 		text-align: center;
+	}
+	.b-1-text {
+		text-align: center;
+		margin-left: 0;
+	}
+	.b-1-text-el {
+		margin: 20px 10px 0;
+	}
+	.b-1-text-el.last {
+		margin-right: 10px;
 	}
 }
 @media screen and (max-width: 500px) {
