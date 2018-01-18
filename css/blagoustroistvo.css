@@ -176,6 +176,47 @@
 .b-2-asort a:hover {
 	background-color: #35877e;
 }
+.b-2-asort .b-2-asort-cont {
+	max-width: 540px;
+	margin-left: 0;
+	border: 2px dashed rgb(215,215,215);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-2-asort .b-2-asort-cont:hover {
+	border-color: rgb(55, 164, 152);
+}
+.b-2-asort .b-2-asort-cont h4 {
+	display: block;
+	font-size: 22px;
+	font-family: "Futura Light";
+	color: #000000;
+	margin-top: 25px;
+	text-align: center;
+}
+.b-2-asort .b-2-asort-cont p {
+	display: block;
+	font-size: 22px;
+	font-family: "Futura Light";
+	color: #ecd085;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.b-2-asort .b-2-asort-cont span, .b-2-asort .b-2-asort-cont a {
+	display: block;
+	font-size: 32px;
+	font-family: "Futura Heavy";
+	color: #ffffff;
+	margin-bottom: 25px;
+	background-color: rgb(55, 164, 152);
+	padding: 30px 0;
+	margin-bottom: 0;
+	text-align: center;
+	border-radius: 0;
+}
 
 .b-3 {
 	background-color: rgb(231, 240, 239);
@@ -216,5 +257,11 @@
 	}
 	.b-1 h4, .b-1 h1, .b-1 p, .b-1-info, .b-1-slider, .b-2 h2, .b-3 h2, .b-3 p, .b-2-asort {
 		margin-left: 0;
+	}
+	.b-2-asort .b-2-asort-cont span {
+		display: none;
+	}
+	.b-2-asort .b-2-asort-cont a {
+		display: block !important;
 	}
 }
